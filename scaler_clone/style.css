@@ -1,0 +1,145 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #0b122f;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0b122f;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #0052ff;
+}
+
+.placement-btn {
+    background-color: #0052ff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.placement-btn:hover {
+    background-color: #003bb3;
+}
+
+main {
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.hero-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pre-heading {
+    font-size: 0.8rem;
+    color: #0052ff;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #0b122f;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.main-heading .highlight {
+    color: #0052ff;
+    font-weight: 700;
+}
+
+.sub-heading {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0052ff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003bb3;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #0b122f;
+    border: 2px solid #dcdcdc;
+}
+
+.btn-secondary:hover {
+    background-color: #f0f0f0;
+    border-color: #c0c0c0;
+}
+
+footer {
+    background-color: #0b122f;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 5%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
